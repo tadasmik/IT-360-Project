@@ -9,9 +9,6 @@ This project investigates a simulated account compromise staged in a controlled 
 
 **Key finding:** Both tools independently confirmed all four failed logons and the one successful logon, while Sushi AI reported only three of the four failed logons in both tests. Sushi also incorrectly flagged our intentional file modification as unauthorized. This demonstrates that AI/SIEM output must be corroborated against raw evidence rather than trusted on its own.
 
-## Demo Video
-https://drive.google.com/file/d/1olC2yPiQfSNy16qd6RfhR_3tL56lxQS_/view?usp=sharing 
-
 ## Tools
 
 Two independent analyzers are included, one written by each team member. They reach the same conclusion from different inputs, which strengthens the result.
@@ -77,9 +74,8 @@ This reads `data/Forensic_Logs.txt` and `data/File_Integrity_Evidence.txt` and w
 │   ├── sample_security.evtx     # sample evidence (EVTX)
 │   ├── Forensic_Logs.txt        # sample evidence (text log dump)
 │   └── File_Integrity_Evidence.txt  # original vs. modified hashes
-├── docs/
-│   ├── final_report.pdf         # written report
-│   └── presentation_slides.pdf  # presentation slides
+├── Final_Report.docx.pdf        # written report
+├── presentation_slides.pdf      # presentation slides
 ├── requirements.txt
 ├── LICENSE
 └── README.md
