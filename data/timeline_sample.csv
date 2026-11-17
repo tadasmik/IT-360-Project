@@ -1,0 +1,6 @@
+time,event_id,result,user,domain,logon_type,logon_type_desc,source_ip,workstation,substatus,reason
+2026-11-16 16:26:22,4625,FAILED,ForensicTest,DESKTOP-SM6ACEE,2,Interactive (local keyboard),::1,DESKTOP-SM6ACEE,0xc000006a,Incorrect password
+2026-11-16 16:26:49,4625,FAILED,ForensicTest,DESKTOP-SM6ACEE,2,Interactive (local keyboard),::1,DESKTOP-SM6ACEE,0xc000006a,Incorrect password
+2026-11-16 16:27:15,4625,FAILED,ForensicTest,DESKTOP-SM6ACEE,2,Interactive (local keyboard),::1,DESKTOP-SM6ACEE,0xc000006a,Incorrect password
+2026-11-16 16:27:47,4625,FAILED,ForensicTest,DESKTOP-SM6ACEE,2,Interactive (local keyboard),::1,DESKTOP-SM6ACEE,0xc000006a,Incorrect password
+2026-11-16 16:34:48,4624,SUCCESS,ForensicTest,DESKTOP-SM6ACEE,2,Interactive (local keyboard),::1,DESKTOP-SM6ACEE,,
