@@ -1,0 +1,25 @@
+Windows 11 File Integrity Investigation
+
+Test Account: ForensicTest
+File Name: financial_records.txt
+
+Original File Contents:
+Confidential test document
+
+Modified File Contents:
+Confidential test document
++ Modified confidential financial data
+
+Original SHA-256:
+69b624d5676c6cc2fbff8b0a20cfa28bdceced4b4a2c70940b4c5001bde80517
+
+Modified SHA-256:
+dbda1b4a298502b2569624172cd128daa874eb1d8ca7e3a498171341d66509ab
+
+Investigation Notes:
+This was a controlled laboratory simulation.
+The file was intentionally modified.
+The two SHA-256 hashes were different.
+
+This is an investigator-created evidence
+summary, not a Windows event log.

@@ -1,0 +1,279 @@
+﻿
+
+TimeCreated : 11/16/2026 2:34:48 PM
+Id          : 4624
+Message     : An account was successfully logged on.
+              
+              Subject:
+              	Security ID:		S-1-5-21-4261205530-1886999059-2197602584-1001
+              	Account Name:		vmuser
+              	Account Domain:		DESKTOP-SM6ACEE
+              	Logon ID:		0x646C71C
+              
+              Logon Information:
+              	Logon Type:		2
+              	Restricted Admin Mode:	-
+              	Remote Credential Guard:	-
+              	Virtual Account:		No
+              	Elevated Token:		No
+              
+              Impersonation Level:		Impersonation
+              
+              New Logon:
+              	Security ID:		S-1-5-21-4261205530-1886999059-2197602584-1002
+              	Account Name:		ForensicTest
+              	Account Domain:		DESKTOP-SM6ACEE
+              	Logon ID:		0x66BF083
+              	Linked Logon ID:		0x0
+              	Network Account Name:	-
+              	Network Account Domain:	-
+              	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+              
+              Process Information:
+              	Process ID:		0x5e4
+              	Process Name:		C:\Windows\System32\svchost.exe
+              
+              Network Information:
+              	Workstation Name:	DESKTOP-SM6ACEE
+              	Source Network Address:	::1
+              	Source Port:		0
+              
+              Detailed Authentication Information:
+              	Logon Process:		seclogo
+              	Authentication Package:	Negotiate
+              	Transited Services:	-
+              	Package Name (NTLM only):	-
+              	Key Length:		0
+              
+              This event is generated when a logon session is created. It is generated on the computer that was accessed.
+              
+              The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+              
+              The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+              
+              The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+              
+              The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+              
+              The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+              
+              The authentication information fields provide detailed information about this specific logon request.
+              	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+              	- Transited services indicate which intermediate services have participated in this logon request.
+              	- Package name indicates which sub-protocol was used among the NTLM protocols.
+              	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+
+TimeCreated : 11/16/2026 2:27:47 PM
+Id          : 4625
+Message     : An account failed to log on.
+              
+              Subject:
+              	Security ID:		S-1-5-21-4261205530-1886999059-2197602584-1001
+              	Account Name:		vmuser
+              	Account Domain:		DESKTOP-SM6ACEE
+              	Logon ID:		0x646C71C
+              
+              Logon Type:			2
+              
+              Account For Which Logon Failed:
+              	Security ID:		S-1-0-0
+              	Account Name:		ForensicTest
+              	Account Domain:		DESKTOP-SM6ACEE
+              
+              Failure Information:
+              	Failure Reason:		Unknown user name or bad password.
+              	Status:			0xC000006D
+              	Sub Status:		0xC000006A
+              
+              Process Information:
+              	Caller Process ID:	0x5e4
+              	Caller Process Name:	C:\Windows\System32\svchost.exe
+              
+              Network Information:
+              	Workstation Name:	DESKTOP-SM6ACEE
+              	Source Network Address:	::1
+              	Source Port:		0
+              
+              Detailed Authentication Information:
+              	Logon Process:		seclogo
+              	Authentication Package:	Negotiate
+              	Transited Services:	-
+              	Package Name (NTLM only):	-
+              	Key Length:		0
+              
+              This event is generated when a logon request fails. It is generated on the computer where access was attempted.
+              
+              The Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+              
+              The Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).
+              
+              The Process Information fields indicate which account and process on the system requested the logon.
+              
+              The Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+              
+              The authentication information fields provide detailed information about this specific logon request.
+              	- Transited services indicate which intermediate services have participated in this logon request.
+              	- Package name indicates which sub-protocol was used among the NTLM protocols.
+              	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+
+TimeCreated : 11/16/2026 2:27:15 PM
+Id          : 4625
+Message     : An account failed to log on.
+              
+              Subject:
+              	Security ID:		S-1-5-21-4261205530-1886999059-2197602584-1001
+              	Account Name:		vmuser
+              	Account Domain:		DESKTOP-SM6ACEE
+              	Logon ID:		0x646C71C
+              
+              Logon Type:			2
+              
+              Account For Which Logon Failed:
+              	Security ID:		S-1-0-0
+              	Account Name:		ForensicTest
+              	Account Domain:		DESKTOP-SM6ACEE
+              
+              Failure Information:
+              	Failure Reason:		Unknown user name or bad password.
+              	Status:			0xC000006D
+              	Sub Status:		0xC000006A
+              
+              Process Information:
+              	Caller Process ID:	0x5e4
+              	Caller Process Name:	C:\Windows\System32\svchost.exe
+              
+              Network Information:
+              	Workstation Name:	DESKTOP-SM6ACEE
+              	Source Network Address:	::1
+              	Source Port:		0
+              
+              Detailed Authentication Information:
+              	Logon Process:		seclogo
+              	Authentication Package:	Negotiate
+              	Transited Services:	-
+              	Package Name (NTLM only):	-
+              	Key Length:		0
+              
+              This event is generated when a logon request fails. It is generated on the computer where access was attempted.
+              
+              The Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+              
+              The Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).
+              
+              The Process Information fields indicate which account and process on the system requested the logon.
+              
+              The Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+              
+              The authentication information fields provide detailed information about this specific logon request.
+              	- Transited services indicate which intermediate services have participated in this logon request.
+              	- Package name indicates which sub-protocol was used among the NTLM protocols.
+              	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+
+TimeCreated : 11/16/2026 2:26:49 PM
+Id          : 4625
+Message     : An account failed to log on.
+              
+              Subject:
+              	Security ID:		S-1-5-21-4261205530-1886999059-2197602584-1001
+              	Account Name:		vmuser
+              	Account Domain:		DESKTOP-SM6ACEE
+              	Logon ID:		0x646C71C
+              
+              Logon Type:			2
+              
+              Account For Which Logon Failed:
+              	Security ID:		S-1-0-0
+              	Account Name:		ForensicTest
+              	Account Domain:		DESKTOP-SM6ACEE
+              
+              Failure Information:
+              	Failure Reason:		Unknown user name or bad password.
+              	Status:			0xC000006D
+              	Sub Status:		0xC000006A
+              
+              Process Information:
+              	Caller Process ID:	0x5e4
+              	Caller Process Name:	C:\Windows\System32\svchost.exe
+              
+              Network Information:
+              	Workstation Name:	DESKTOP-SM6ACEE
+              	Source Network Address:	::1
+              	Source Port:		0
+              
+              Detailed Authentication Information:
+              	Logon Process:		seclogo
+              	Authentication Package:	Negotiate
+              	Transited Services:	-
+              	Package Name (NTLM only):	-
+              	Key Length:		0
+              
+              This event is generated when a logon request fails. It is generated on the computer where access was attempted.
+              
+              The Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+              
+              The Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).
+              
+              The Process Information fields indicate which account and process on the system requested the logon.
+              
+              The Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+              
+              The authentication information fields provide detailed information about this specific logon request.
+              	- Transited services indicate which intermediate services have participated in this logon request.
+              	- Package name indicates which sub-protocol was used among the NTLM protocols.
+              	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+
+TimeCreated : 11/16/2026 2:26:22 PM
+Id          : 4625
+Message     : An account failed to log on.
+              
+              Subject:
+              	Security ID:		S-1-5-21-4261205530-1886999059-2197602584-1001
+              	Account Name:		vmuser
+              	Account Domain:		DESKTOP-SM6ACEE
+              	Logon ID:		0x646C71C
+              
+              Logon Type:			2
+              
+              Account For Which Logon Failed:
+              	Security ID:		S-1-0-0
+              	Account Name:		ForensicTest
+              	Account Domain:		DESKTOP-SM6ACEE
+              
+              Failure Information:
+              	Failure Reason:		Unknown user name or bad password.
+              	Status:			0xC000006D
+              	Sub Status:		0xC000006A
+              
+              Process Information:
+              	Caller Process ID:	0x5e4
+              	Caller Process Name:	C:\Windows\System32\svchost.exe
+              
+              Network Information:
+              	Workstation Name:	DESKTOP-SM6ACEE
+              	Source Network Address:	::1
+              	Source Port:		0
+              
+              Detailed Authentication Information:
+              	Logon Process:		seclogo
+              	Authentication Package:	Negotiate
+              	Transited Services:	-
+              	Package Name (NTLM only):	-
+              	Key Length:		0
+              
+              This event is generated when a logon request fails. It is generated on the computer where access was attempted.
+              
+              The Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+              
+              The Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).
+              
+              The Process Information fields indicate which account and process on the system requested the logon.
+              
+              The Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+              
+              The authentication information fields provide detailed information about this specific logon request.
+              	- Transited services indicate which intermediate services have participated in this logon request.
+              	- Package name indicates which sub-protocol was used among the NTLM protocols.
+              	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+
+
+
