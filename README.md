@@ -89,6 +89,17 @@ This reads `data/Forensic_Logs.txt` and `data/File_Integrity_Evidence.txt` and w
 - The file modification was confirmed by differing before/after SHA-256 hashes.
 - Sushi AI reported only 3 of the 4 failed logons and misclassified the file change as unauthorized.
 
+## Independent Verification
+
+Both team members developed separate Python forensic tools to analyze the same simulated incident.
+
+Tadas's program examines the original EVTX evidence, while Josh's program analyzes exported text logs and recorded file-integrity hashes.
+
+Both authentication analyses identified four failed logins and one successful login. This allowed us to compare the results against Sushi AI, which reported only three failed logins.
+
+Using two independent analysis methods helped us verify the authentication timeline and identify limitations in the AI-generated findings.
+
+
 ## Limitations
 
 - Reading the audit policy on Windows required administrator rights.
